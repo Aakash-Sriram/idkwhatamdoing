@@ -27,14 +27,7 @@ export default function Navigation() {
             <Calendar size={24} />
             <span className="text-xs mt-1">Calendar</span>
           </NavLink>
-          <div className="relative -top-6">
-            <button 
-              onClick={() => navigate('/create')}
-              className="bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-colors"
-            >
-              <Plus size={24} />
-            </button>
-          </div>
+          
           <NavLink 
             to="/notes" 
             className={({ isActive }) => `flex flex-col items-center ${
@@ -44,6 +37,14 @@ export default function Navigation() {
             <BookOpen size={24} />
             <span className="text-xs mt-1">Notes</span>
           </NavLink>
+          <div className="relative -top-6">
+            <button 
+              onClick={() => navigate('/create')}
+              className="bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-colors"
+            >
+              <Plus size={24} />
+            </button>
+          </div>
           <NavLink 
             to="/tasks" 
             className={({ isActive }) => `flex flex-col items-center ${
