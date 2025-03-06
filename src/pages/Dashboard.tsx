@@ -7,7 +7,7 @@ export default function Dashboard() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Welcome back, Aakash S</h1>
+          <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Welcome back, Aakash</h1>
           <p className="text-gray-600 dark:text-gray-400">Let's continue your learning journey</p>
         </div>
         <img

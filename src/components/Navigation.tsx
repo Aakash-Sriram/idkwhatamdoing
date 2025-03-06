@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { Home, Calendar, BookOpen, CheckSquare, Plus, DollarSign, Users } from 'lucide-react';
 
